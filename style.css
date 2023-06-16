@@ -1,0 +1,22 @@
+body {
+	background-color: salmon;
+}
+label {
+	color: skyblue;
+}
+input {
+	color: green;
+}
+label [type="email"] {
+	background-color: blue;
+	color: red;
+}
+input [type="button"]{
+	color: green;
+}
+button {
+	color: green;
+	height: 40px;
+	width: 100px;
+}
+
