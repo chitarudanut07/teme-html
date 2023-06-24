@@ -1,0 +1,27 @@
+#parinte {
+    background-color:  #99FFCC;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+}
+#child1 {
+    background-color: yellow;
+    height: 115px;
+    width: 115px;
+    position: relative;
+    transform: translate(100%,100%);
+}
+#child2 {
+    background-color: blue;
+    height: 115px;
+    width: 115px;
+    position: relative;
+    transform: translate(50%,50%);
+}
+#child3 {
+    background-color: green;
+    height: 115px;
+    width: 115px;
+    position: relative;
+    transform: translate(50%,50%);
+}
