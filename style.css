@@ -1,3 +1,82 @@
+#subtitle, section {
+    text-align: center;
+}
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-containers {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 1px lightgray;
+    justify-content: space-between;
+    margin: auto;
+}
+.container-main {
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 1px lightgray;
+    justify-content: space-between;
+    margin: auto;
+}
+.watches {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.watches > img {
+    width: 65px;
+    height: 100px;
+    border-radius: 50%;
+}
+.watches-info > h4, p, form {
+    text-align: center;
+}
+input[type="button"] {
+    background-color: white;
+    border: 1px solid rgb(176, 187, 190);
+    color: rgb(176, 187, 190);
+    height: 30px;
+    position: relative;
+    bottom: -20px;
+    padding: 0px 30px;
+}
+.watches-three {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: lightgrey;
+}
+.watches-three > img {
+    width: 65px;
+    height: 100px;
+    border-radius: 50%;
+}
+.watches-four {
+    background-color: lightgrey;
+    background-image: radial-gradient(white 60%, lightgray);
+}
+.watches-four > .firstwatch {
+    width: 40px;
+    height: 80px;
+    justify-self: center;
+    align-self: center;
+    transform: translateX(60%);
+}
+.watches-four > .thirdwatch {
+    width: 40px;
+    height: 80px;
+    justify-self: center;
+    align-self: center;
+    transform: translateX(-60%);
+}
+.watches-four > .secondwatch {
+    z-index: 1;
+}
+
 body {
 	background-color: salmon;
 }
